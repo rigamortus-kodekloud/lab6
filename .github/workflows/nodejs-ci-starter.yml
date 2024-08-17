@@ -6,7 +6,7 @@ on:
     
 jobs:
     build:
-      runs-on: [production, self-hosted]
+      runs-on: [production,self-hosted]
       steps:
         - name: Checkout Repository
           uses: actions/checkout@v4
